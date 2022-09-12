@@ -1,0 +1,289 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+}
+header{
+  
+  width: 100%;
+  
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  padding : 20px 100px 20px 0px;
+  margin: 0;
+  background-color:rgb(13,20,54);;
+  background-size: cover;
+ justify-content: space-between;
+}
+.navigation a{
+  color: white;
+  text-decoration: none;
+  font-weight: 500px;
+  font-size: 1.1em;
+  padding-left: 30px;
+
+}
+.navigation a:hover{
+  color:#5f1cfcf6
+}
+.social-icons a{
+  font-size: 1.7em;
+ color: #fff;
+margin-left:30px ;
+}
+
+.Card{
+ 
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+ background-color: rgb(13,20,54);
+}
+ .design{
+  background-color:white;
+ border: 1px solid rgba(128, 128, 128, 0);
+  align-items: center;
+  width: 33em;
+  
+  border-radius: 10px;
+  margin: 60px;
+  padding-top: 30px;
+
+  
+  transition: 0.7s ease;
+  overflow: hidden;
+  
+ }
+ 
+.design:hover{
+  transform: scale(1.03);
+  
+}
+.design1
+{
+  padding-left: 100px;
+}
+ .design h2{
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(1, 7, 85);
+  font-size: 2em;
+ font-weight: 10em;
+ font-style: oblique;
+ border: 3px solid gray;
+border-radius: 5px;
+text-align: center;
+margin-left: 125px;
+margin-bottom: 30px;
+width: 305px;
+ 
+ }
+
+
+ .main-part{height: 200px;
+width:300px;
+ 
+align-items: center;
+
+ }
+
+ #ultrasound h2{
+  width: 500px;
+  
+  margin-left: 20px;
+  
+}
+#underwater-vehicle h2{
+  width: 500px;
+  
+  margin-left: 20px;
+
+ }
+#wooden-chair h2{
+  width: 500px;
+  
+  margin-left: 20px
+}
+
+.parts{
+  margin-bottom: 40px;
+ width: 250px;
+ height: 150px;
+ padding-left: 70px;
+
+
+}
+.turbine{
+  padding-left: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(13,20,54);
+  color: white;
+}
+.turbine h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding-top: 0px;
+width: 900px;
+margin-left: 200px;
+  margin-bottom: 30px;
+ line-height: 2em;
+  font-size: 2.5em;
+  
+  
+}
+.turbine h2{
+  line-height: 2em;
+
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom:30px ;
+}
+.turbine p{
+ 
+  font-size: 1.4em;
+  line-height: 2em;
+}
+.turbine ol{
+  font-size: 1.4em;
+  line-height: 2em;
+  padding-left: 25px;
+
+  
+}
+.turbine img{
+  padding-left: 300px;
+  width:650px;
+  height: 312px;
+
+
+}
+
+.washingMachine{
+  padding-left: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(13,20,54);
+  color: white;
+}
+.washingMachine h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding-top: 0px;
+width: 900px;
+margin-left: 200px;
+  margin-bottom: 30px;
+ line-height: 2em;
+  font-size: 2.5em;
+  
+  
+}
+.washingMachine h2{
+  line-height: 2em;
+
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom:30px ;
+}
+.washingMachine p{
+ 
+  font-size: 1.4em;
+  line-height: 2em;
+}
+.washingMachine ol{
+  font-size: 1.4em;
+  line-height: 2em;
+  padding-left: 25px;
+
+  
+}
+
+
+.washing-machine{
+ 
+  margin-top: 35px;
+    margin-bottom: 35px;
+  width: 300px;
+  height: 300px;
+
+}
+.washing-machine2{
+ 
+  margin-top: 35px;
+    margin-bottom: 35px;
+  width: 300px;
+  height: 350px;
+
+}
+
+.picture{
+  padding-left: 450px;
+}
+
+.washing-machine1{
+  
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 200px;
+    width: 500px;
+    height: 300px;
+  }
+ 
+.washing-machine3{
+ 
+  width: 500px;
+ 
+}
+.picture2{
+  padding-left:400px;
+}
+.drawing{
+  padding-left: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(13,20,54);
+  color: white;
+}
+.drawing h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding-top: 0px;
+width: 900px;
+margin-left: 200px;
+  margin-bottom: 30px;
+ line-height: 2em;
+  font-size: 2.5em;
+  
+  
+}
+.drawing h2{
+  line-height: 2em;
+
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom:30px ;
+}
+.drawing p{
+ 
+  font-size: 1.4em;
+  line-height: 2em;
+}
+.drawing ol{
+  font-size: 1.4em;
+  line-height: 2em;
+  padding-left: 25px;
+
+  
+}
+.drawing img{
+padding-left: 200px;
+  width: 500px;
+height: 300px;
+margin-top: 50px;
+margin-bottom:30px ;
+
+
+}
+.picture3{
+  padding-left: 250px;
+}

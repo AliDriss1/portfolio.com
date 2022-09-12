@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ali Driss</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<header>
+
+  <nav class="navigation">
+  
+    <a href="index.html">Home</a>
+    <a href="about.html"> About</a>
+    <a href ="projects.html">Projects</a>
+  
+  </nav>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/ali-driss/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="mailto:Alidriss.aad@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+  
+  </header>
+ 
+<body>
+<div class="drawing">
+  <h1>3-Axis DrawingBot </h1>
+  <h2>Description</h2>
+  <p>Core XY Drawing-Bot which is designed to draw specific vector lines obtained from any image. It took approximately 35 hours of 3D printing time to make the parts. The Bot is powered by GRBL firmware through Arduino which enables motion control for CNC machines. </p>
+  <h2>Tasks</h2>
+  <ol>
+    <li>Designing and 3D printing the plastic parts of the Bot. </li>
+    <img src="drawingbot1.PNG">
+    <img src="drawingbot2.PNG">
+    <img src="drawingbot4.PNG">
+    <img src="drawingbot5.PNG">
+    <li>Assembly of the mechanical parts (Axis-Belts-Bearings-Screws) with the 3D printed parts.  </li>
+    <img src="drawingbot6.PNG">
+    <img src="drawingbot7.PNG">
+    <li>Attaching the servo motor to the pen holder and the stepper motors to the belt and connecting them the motor driver connected to an Arduino microcontroller. </li>
+   <div class="picture3">
+   <img src="drawingbot8.PNG" class="Drawing-Bot">
+   </div>
+  <li>For the software part Grbl servo master was used to control the motion of the motors, in addition to MI Inkscape Extension to convert the picture into vector lines then to G-code to send it to the Grbl code implanted in the Arduino which is configured with a Universal Gcode sender to control it.</li>
+  <div class="picture3">
+  <img src="drawingbot9.PNG" class="Drawing-Bot">
+  </div>
+  <li>	The result was a high accurate drawing bot capable to draw any picture on a horizontal surface plate. </li>
+ <div class="picture3">
+  <img src="drawingbot10.PNG">
+ </div>
+  </ol>
+</div>
+</body>
+</html>
